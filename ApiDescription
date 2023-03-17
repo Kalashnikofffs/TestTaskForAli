@@ -1,0 +1,16 @@
+Good:
+    name str
+    desc str
+    org object?
+    price double
+    coun int
+    discountInfo List object?
+    comment object
+    keywords List str
+    charactristicTabe ?
+    grade int
+
+Discount:
+    goods List Goods
+    volumeOfDiscount int
+    discountDuration datetime.days
